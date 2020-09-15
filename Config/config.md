@@ -1,7 +1,7 @@
 ```json
 {
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "files.autoSave": "off",
   "explorer.confirmDelete": false,
   "color-highlight.sass.includePaths": [
@@ -42,7 +42,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Horizon",
+  "workbench.colorTheme": "GitHub Dark",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -62,5 +62,11 @@
     "source.fixAll.eslint": true
   },
   "explorer.compactFolders": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
 ```
